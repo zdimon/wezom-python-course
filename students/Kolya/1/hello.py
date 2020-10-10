@@ -16,6 +16,7 @@ c = int(input('Какова ваша ставка? '))
 if c < o:
 	while True:
 		k = random.randint(1, 10)
+		print('Подсказка: число ' + str(k))
 		a = int(input('Введите число от 1 до 10: '))
 		if a == k:
 			print('Вы угадали')
