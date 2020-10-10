@@ -17,3 +17,8 @@ while True:
 		break
 	else:
 		print('Неправильно')
+		b = input('Хотите ли продолжить? ' )
+		if b == 'да':
+			continue
+		else:
+			break
