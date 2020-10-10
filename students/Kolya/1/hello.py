@@ -25,6 +25,7 @@ if c < o:
 			if b == 'да':
 					continue
 			else:
+				print('Вам выплатят ' + str(o))
 				break
 		else:
 			print('Неправильно')
