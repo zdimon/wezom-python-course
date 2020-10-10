@@ -7,3 +7,9 @@ elif ves > 60:
     print("2")
 else:
     print("3")
+
+import random
+
+while True:
+	print(random.randint(1,7))
+	break;
