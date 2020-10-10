@@ -10,15 +10,33 @@ elif a > 30 and a <= 60:
 	print('Вы нормального веса')
 '''
 import random
-while True:
-	k = random.randint(1, 10)
-	a = int(input('Введите число от 1 до 10: '))
-	if a == k:
-		break
-	else:
-		print('Неправильно')
-		b = input('Хотите ли продолжить? ' )
-		if b == 'да':
-			continue
+o = 10
+print('Ваш баланс - ' + str(o))
+c = int(input('Какова ваша ставка? '))
+if c < o:
+	while True:
+		k = random.randint(1, 10)
+		a = int(input('Введите число от 1 до 10: '))
+		if a == k:
+			print('Вы угадали')
+			o = o * 2
+			print('Ваш счёт - ' + str(o))
+			b = input('Хотите ли продолжить? ' )
+			if b == 'да':
+					continue
+			else:
+				break
 		else:
-			break
+			print('Неправильно')
+			b = input('Хотите ли продолжить? ' )
+			o = o - c
+			if b == 'да':
+				if o > 0:
+					continue
+				else:
+					print('Вы банкрот :(')
+					break
+			else:
+				break
+else:
+	print('Недостаточно средств')
