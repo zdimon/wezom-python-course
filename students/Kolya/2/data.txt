@@ -1,1 +1,2 @@
-привет ;как дела
+dima:vova:petya
+misha:galya:vova
