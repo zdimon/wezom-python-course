@@ -8,14 +8,13 @@ for row in string.split(':'):
 	k = i
 	for row2 in row.split('\n'):
 		if i == k:
-			t.append(str(i) + ' - ' + row2)
+			t.append(str(i) + '-' + row2)
 			i = i + 1
 		else:
-			t.append(str(i) + ' - ' + row2)
+			t.append(str(i) + '-' + row2)
 			i = i + 1
-print(t)
-#for row in t:
-#	f = open(row + '.txt', 'w')
+for row in t:
+	f = open(row + '.txt', 'w')
 '''
 pr = []
 s = '-'
