@@ -18,6 +18,7 @@ while True:
             continue
         elif b == 'нет':
             print('На ваш счет зачислено: ', cash,' Приходите еще!!!')
+            break
     else:
         cash = cash - bet
         if cash > 0:
