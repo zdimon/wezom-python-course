@@ -8,7 +8,11 @@ elif a > 60:
 	print('Вы полный')
 elif a > 30 and a <= 60: 
 	print('Вы нормального веса')
-'''
+
+
+
+
+
 import random
 o = 10
 print('Ваш баланс - ' + str(o))
@@ -18,6 +22,7 @@ if c < o:
 		k = random.randint(1, 10)
 		print('Подсказка: число ' + str(k))
 		a = int(input('Введите число от 1 до 10: '))
+
 		if a == k:
 			print('Вы угадали')
 			o = o * 2
@@ -42,3 +47,7 @@ if c < o:
 				break
 else:
 	print('Недостаточно средств')
+<<<<<<< HEAD
+'''
+=======
+>>>>>>> 206a11545729e623dcaba4ea745946fb5f295f27
