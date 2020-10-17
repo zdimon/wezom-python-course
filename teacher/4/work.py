@@ -66,6 +66,8 @@ for line in f.readlines():
     line.find(sys.argv[1])
 # txt = f.read()
 
+#newstr = str.replace('what', 'whatss')
+
 # print(txt)
 
 
