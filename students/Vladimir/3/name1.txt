@@ -1,0 +1,2 @@
+dima:vova:petya
+misha:galya:vova:
