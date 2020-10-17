@@ -59,11 +59,11 @@
 #    print('Error')
 
 #print('End programm')
-
+import sys
 
 f = open('test.txt', 'r')
 for line in f.readlines():
-    print(line)
+    line.find(sys.argv[1])
 # txt = f.read()
 
 # print(txt)
