@@ -40,8 +40,11 @@ while True:
 		chisla2 = fl + sl
 		while chisla2 < 22:
 			irr = it()
-			if chisla2 + coloda[irr] <= 21:
-				chisla2 = chisla2 + coloda[irr]
+			chisla2 + coloda[irr]
+			if chisla2 > 21:
+				print('Вы победили :)')
+				chisla2 = 0
+				break
 			else:
 				break
 		print(chisla2)
