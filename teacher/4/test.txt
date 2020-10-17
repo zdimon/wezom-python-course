@@ -1,0 +1,10 @@
+f a valid align value is specified, 
+it can be preceded by a fill character 
+that can be any character and defaults 
+to a space if omitted. It is not possible 
+to use a literal curly brace (“{” or “}”) 
+as the fill character in a formatted string 
+literal or when using the str.format() method. 
+However, it is possible to insert a curly brace 
+with a nested replacement field. This limitation 
+doesn’t affect the format() function.
