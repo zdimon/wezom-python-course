@@ -55,6 +55,7 @@ def game():
         point = random.choice(deck)
         player.append(point)
         score_p += point
+        import pdb; pdb.set_trace()
         print('У вас такие карты: ', player)
         print('Общее количество очков: ', score_p)
         if score_p > 21:
