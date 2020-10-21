@@ -19,6 +19,7 @@ for question in file:
     else:
         score_wrong += 1
     number += 1
-print(score_right)
-print(score_wrong)
+answers_p = open(name + '.txt', 'a')
+answers_p.write('Right answers: ' + str(score_right) + '\nWrong answers: ' + str(score_wrong))
+answers_p.close()
 file.close()
