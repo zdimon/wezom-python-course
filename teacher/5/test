@@ -1,0 +1,18 @@
+human
+    head
+        yes
+        yes
+    body
+
+<human>
+    <head>
+        <eye color="blue" >sdfsdsdsd</eye>
+    </head>
+</human>
+
+{
+   'head': [ 
+       {"name": "eye"},
+       {"name": "eye"}
+   ] 
+}
