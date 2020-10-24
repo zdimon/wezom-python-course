@@ -13,7 +13,7 @@ def get_data():
         f = open('secret','r')
         mystr = f.read()
         print(mystr) 
-        arr = mystr.split(':')
+        arr = mystr.split(';')
         bot_name = arr[0]
         key = arr[1]
     
