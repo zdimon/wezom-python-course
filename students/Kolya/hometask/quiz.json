@@ -1,0 +1,19 @@
+[
+    { 
+        "question": "Who won in WW2?",
+        "answers": [
+            {"text": "USA", "true": 0},
+            {"text": "USSR", "true": 1}
+        ]
+    },
+
+    { 
+        "question": "How many ml in l?",
+        "answers": [
+            {"text": "10", "true": 0},
+            {"text": "100", "true": 0},
+            {"text": "1000", "true": 1}
+        ]
+    }
+
+]
