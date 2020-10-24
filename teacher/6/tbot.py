@@ -1,8 +1,11 @@
 from telegram.ext import Updater
 from telegram.ext import CommandHandler, CallbackContext
 from telegram import Bot
+import json
 
-
+f = open('question.json', 'r')
+jsondata = json.loads(f.read())
+f.close()
 
 print('Привет я спящий бот и я проснулся!')
 from utils import get_data
@@ -14,8 +17,10 @@ def start(update: Updater, context: CallbackContext):
     print("Start command!")
     print(update.message.from_user['username'])
     room_id = update.message.chat_id
-    print(room_id)
-    bot.send_message(room_id,'Hello. How are you?')
+    print(jsondata[0]['question'])
+    bot.send_message(room_id,jsondata[0]['question'])
+    bot.send_photo(chat_id=room_id, photo=open('filename.png', 'rb'))
+    
 
 
 start_handler = CommandHandler('start', start)
