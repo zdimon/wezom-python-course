@@ -31,6 +31,3 @@ updater.start_polling()
 
 
 
-
-
-
