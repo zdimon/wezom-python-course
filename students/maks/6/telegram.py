@@ -23,11 +23,4 @@ start_handler = CommandHandler('start', start)
 
 updater = Updater(token=data['ключ'], use_context=True)
 updater.dispatcher.add_handler(start_handler)
-updater.start_polling() 
-
-
-
-
-
-
-
+updater.start_polling()
