@@ -5,7 +5,7 @@ from telegram import Bot
 
 
 print('Привет, я спящий бот и я проснулся!')
-from utils import get_data
+from another import get_data
 data = get_data()
 print(data)
 bot = Bot(token=data['ключ'])
