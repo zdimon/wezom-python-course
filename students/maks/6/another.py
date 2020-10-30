@@ -22,5 +22,3 @@ def get_data():
         'ключ': key
     }
     return данные
-
-    

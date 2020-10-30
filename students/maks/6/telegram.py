@@ -3,7 +3,6 @@ from telegram.ext import CommandHandler, CallbackContext
 from telegram import Bot
 
 
-
 print('Привет, я спящий бот и я проснулся!')
 from another import get_data
 data = get_data()
