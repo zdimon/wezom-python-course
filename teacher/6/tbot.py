@@ -4,7 +4,7 @@ from telegram import Bot
 
 
 
-print('Привет я спящий бот и я проснулся!')
+print('Привет, я спящий бот и я проснулся!')
 from utils import get_data
 data = get_data()
 print(data)
@@ -22,7 +22,7 @@ start_handler = CommandHandler('start', start)
 
 updater = Updater(token=data['ключ'], use_context=True)
 updater.dispatcher.add_handler(start_handler)
-updater.start_polling()  
+updater.start_polling() 
 
 
 

@@ -1,4 +1,5 @@
 #print("Hello world")
+
 #print("Какой ваш вес?")
 #ves = int(input())
 #if ves <= 30:
@@ -7,6 +8,7 @@
  #   print("2")
 #else:
  #   print("3")
+
 
 #import random
 
@@ -18,6 +20,7 @@
 		#break
 	#else:
 		#print("Попробуй ещё раз")
+		
 
 import random
 

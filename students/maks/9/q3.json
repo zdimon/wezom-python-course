@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Australia",
+  "questions":
+    [
+      {
+        "answer": "Opera", 
+        "question": "What is the most famous building in Sydney?"
+      }
+    ]
+}

@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Science",
+  "questions":
+    [
+      {
+        "answer": "Blue or purple", 
+        "question": "What is the color of giraffe tongue?"
+      }
+    ]
+}

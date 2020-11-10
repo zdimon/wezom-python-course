@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Geography",
+  "questions":
+    [
+      {
+        "answer": "The Mediterranean Sea and the Red Seas", 
+        "question": "Which two seas are joined by the Suez Canal?"
+      }
+    ]
+}

@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Politics",
+  "questions":
+    [
+      {
+        "answer": "The White House", 
+        "question": "In which house does the American president live?"
+      }
+    ]
+}

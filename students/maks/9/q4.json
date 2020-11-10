@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Biology",
+  "questions":
+    [
+      {
+        "answer": "Yes, a snail has 135 rows of teeth", 
+        "question": "Do snails have teeth?"
+      }
+    ]
+}

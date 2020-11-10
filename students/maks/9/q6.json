@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Economy",
+  "questions":
+    [
+      {
+        "answer": "Drachme", 
+        "question": "What was the currency of Greece before the introduction of the EURO?"
+      }
+    ]
+}

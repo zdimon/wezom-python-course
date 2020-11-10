@@ -1,0 +1,11 @@
+{ 
+  "category":
+    "Sports",
+  "questions":
+    [
+      {
+        "answer": "Seven times", 
+        "question": "How many times has Michael Schumacher been a Formula 1 champion?"
+      }
+    ]
+}
