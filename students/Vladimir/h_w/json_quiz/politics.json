@@ -1,0 +1,88 @@
+ {
+
+      "category":
+            "Politics",
+      "questions":
+          [
+            {
+               "answer": "Fidel Castro",
+               "question": "Who is the dictator of Cuba?"
+            },
+            {
+               "answer": "Saddam Hussain",
+               "question": "Who was the dictator of Iraq?"
+            },
+            {
+               "answer": "Texas",
+               "question": "In which state was George W Bush governor before becoming President of the United States?"
+            },
+            {
+               "answer": "Arkansas",
+               "question": "In which state was Bill Clinton governor before becoming President of the United States?"
+             },
+            {
+               "answer": "In the year 1990",
+               "question": "In what year became John Major the leader of the Conservative Party?"
+             },
+            {
+               "answer": "In the year 1961",
+               "question": "In what year was the Berlin wall built?"
+             },
+            {
+               "answer": "Tito",
+               "question": "Jozip Broz was formerly a Yugoslav marshal and statesman. He became prime minister in 1945 and president in 1953. Give a more familiar name."
+             },
+            {
+               "answer": "Sufragettes",
+               "question": "How were called the British women who fought for women s suffrage?"
+             },
+            {
+               "answer": "Salazar",
+               "question": "Who was the Portuguese dictator at the time of Franco?"
+             },
+            {
+               "answer": "Agent Orange",
+               "question": "What is the defoliant called that was used in Vietnam?"
+             },
+            {
+               "answer": "Dutch language",
+               "question": "What is the most spoken language in Belgium?"
+             },
+            {
+               "answer": "Four heads",
+               "question": "How many heads of presidents are carved into Mount Rushmore?"
+             },
+            {
+               "answer": "Seven years",
+               "question": "For how many years is a French president elected?"
+             },
+            {
+               "answer": "Spencer Percival",
+               "question": "Who is the only British Prime Minister to be murdered?"
+             },
+            {
+               "answer": "Ukraine",
+               "question": "In which country happened the Orange Revolution between 2004-2005?"
+             },
+            {
+               "answer": "Poland",
+               "question": "Which country had a Prime Minister and President who were twin brothers?"
+             },
+            {
+               "answer": "George Washington",
+               "question": "Which American president appears on a one dollar bill?"
+             },
+            {
+               "answer": "California",
+               "question": "For which state did Arnold Schwarzenegger become governor in November 2003?"
+             },
+            {
+               "answer": "Walker",
+               "question": "What does the \"W\" in the name George W Bush stand for?"
+             },
+            {
+               "answer": "The White House",
+               "question": "In which house does the American president live?"
+             }
+          ]
+    }

@@ -35,7 +35,8 @@ f2.close()
 bot = telebot.TeleBot('1269980207:AAEty6BwPGh9u3osCIukji9_MSQz43m9h1w')
 keyboard = telebot.types.ReplyKeyboardMarkup(True)
 keyboard.row('Нет', 'Да')
-order = telebot.types.InlineKeyboardButton(text='Добавить в корзину')
+order = telebot.types.InlineKeyboardMarkup()
+order.add(telebot.types.InlineKeyboardButton(text='Добавить в корзину', callback_data='add'))
 
 
 @bot.message_handler(commands=['start'])

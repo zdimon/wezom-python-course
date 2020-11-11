@@ -1,0 +1,84 @@
+ {
+
+      "category":
+            "Nature",
+      "questions":
+          [
+            {
+               "answer": "North American beaver",
+               "question": "What is the national animal of Canada?"
+            },
+            {
+               "answer": "Golden eagle",
+               "question": "What is the national animal of Albania?"
+            },
+            {
+               "answer": "Pekingese",
+               "question": "Which dog used to be sacred in China?"
+            },
+            {
+               "answer": "Hives",
+               "question": "Urticaria is a skin disease otherwise known as what?"
+             },
+            {
+               "answer": "Whale",
+               "question": "What kind of animal is the largest living creature on Earth"
+             },
+            {
+               "answer": "Paleontology",
+               "question": "Give another name for the study of fossils?"
+             },
+            {
+               "answer": "Penguin",
+               "question": "Which bird can swim but cannot fly?"
+             },
+            {
+               "answer": "Mosquitoes",
+               "question": "What do dragonflies prefer to eat?"
+             },
+            {
+               "answer": "Hinny",
+               "question": "What do you get when you crossbreed a donkey and a horse?"
+             },
+            {
+               "answer": "Fleas",
+               "question": "Which insects cannot fly, but can jump higher than 30 cm?"
+             },
+            {
+               "answer": "Wisent",
+               "question": "What is the name of the European Bison?"
+             },
+            {
+               "answer": "Eel fish",
+               "question": "What is called a fish with a snake-like body?"
+             },
+            {
+               "answer": "Vienna",
+               "question": "In which city is the oldest zoo in the world?"
+             },
+            {
+               "answer": "Dogs",
+               "question": "After which animals are the Canary Islands named?"
+             },
+            {
+               "answer": "Maple",
+               "question": "Which plant does the Canadian flag contain?"
+             },
+            {
+               "answer": "Plankton",
+               "question": "What is the food of penguins?"
+             },
+            {
+               "answer": "Siberian tiger",
+               "question": "Which is the largest species of the tiger?"
+             },
+            {
+               "answer": "Deer Tick",
+               "question": "The bite of which insect causes the Lyme Disease?"
+             },
+            {
+               "answer": "Elephant",
+               "question": "Which mammal cannot jump?"
+             }
+          ]
+    }

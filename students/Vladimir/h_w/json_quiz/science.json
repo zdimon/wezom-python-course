@@ -1,0 +1,124 @@
+ {
+
+      "category":
+            "Science",
+      "questions":
+          [
+            {
+               "answer": "Gagarin",
+               "question": "Who was the first man to fly around the earth with a spaceship?"
+            },
+            {
+               "answer": "The northern hemisphere",
+               "question": "On which hemisphere were the most dinosaur skeletons found?"
+            },
+            {
+               "answer": "Blue",
+               "question": "What color is cobalt?"
+            },
+            {
+               "answer": "Goodyear",
+               "question": "Who invented vulcanized rubber?"
+             },
+            {
+               "answer": "Liver",
+               "question": "What is the organ that is affected when one is suffering from hepatitis?"
+             },
+            {
+               "answer": "Telescope",
+               "question": "Which device do we use to look at the stars?"
+             },
+            {
+               "answer": "Barometer",
+               "question": "Which device is used to measure the air pressure?"
+             },
+            {
+               "answer": "Candela",
+               "question": "Which unit indicates the light intensity?"
+             },
+            {
+               "answer": "Robert Oppenheimer",
+               "question": "Who is the father of the atomic bomb?"
+             },
+            {
+               "answer": "Torricelli",
+               "question": "Who invented the barometer?"
+             },
+            {
+               "answer": "Alan Shepard",
+               "question": "Who was the first American in space?"
+             },
+            {
+               "answer": "Montgolfier",
+               "question": "Two brothers invented the hot air balloon. What was their surname?"
+             },
+            {
+               "answer": "James Watt",
+               "question": "Who was the inventor of the steam engine?"
+             },
+            {
+               "answer": "The typewriter",
+               "question": "Which device was invented by Henry Mill?"
+             },
+            {
+               "answer": "Aluminium",
+               "question": "What is the lightest existing metal?"
+             },
+            {
+               "answer": "Ammoniac",
+               "question": "What is the substance known by the chemical formula NH3?"
+             },
+            {
+               "answer": "Blue, yellow and red",
+               "question": "What are the three primary colors?"
+             },
+            {
+               "answer": "Alexander Fleming",
+               "question": "Who discoved one of the first antibiotics: penicillin ?"
+             },
+            {
+               "answer": "Mercury",
+               "question": "Which planet is nearest the sun?"
+             },
+            {
+               "answer": "Vostok 1",
+               "question": "What was the name of Yuri Gagarin s space ship?"
+             },
+            {
+               "answer": "Diamond",
+               "question": "Which natural substance is the hardest?"
+             },
+            {
+               "answer": "Hydrogen",
+               "question": "What is the lightest chemical element?"
+             },
+            {
+               "answer": "Sirius",
+               "question": "What is the brightest star in the northern hemisphere?"
+             },
+            {
+               "answer": "Uranus",
+               "question": "Which planet was discovered by Frederik Herschel in 1781?"
+             },
+            {
+               "answer": "Asteroids",
+               "question": "In astronomy, what are Pallas, Vesta and Davida?"
+             },
+            {
+               "answer": "Two kidneys",
+               "question": "How many kidneys does a normal person have?"
+             },
+            {
+               "answer": "The symbol Pt",
+               "question": "What is the chemical symbol for the Platinum element?"
+             },
+            {
+               "answer": "Five",
+               "question": "How many eyes does a honeybee have? One, four or five?"
+             },
+            {
+               "answer": "Blue or purple",
+               "question": "What is the color of giraffe tongue"
+             }
+          ]
+    }
