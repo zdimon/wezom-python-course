@@ -77,6 +77,8 @@ INSTALLED_APPS = [
         title = models.CharField(max_length=250)
         content = models.TextField()
 
+https://docs.djangoproject.com/en/3.1/ref/models/fields/#charfield
+
 Создаем файл миграции коммандой 
 
     ./manage.py makemigrations
