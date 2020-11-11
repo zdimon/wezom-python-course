@@ -48,7 +48,7 @@ INSTALLED_APPS = [
         ....
         'DIRS': [BASE_DIR / 'templates'],
 
-Создаем templates и ложим index.html
+Создаем templates в папке проекта и ложим index.html
 
     <!DOCTYPE html>
     <html lang="en">
@@ -68,6 +68,22 @@ INSTALLED_APPS = [
     </body>
 
     </html>
+
+Создаем класс модели в файле models.py
+
+    from django.db import models
+
+    class Page(models.Model):
+        title = models.CharField(max_length=250)
+        content = models.TextField()
+
+Создаем файл миграции коммандой 
+
+    ./manage.py makemigrations
+
+Применяем 
+
+    ./manage.py migrate
 
 
 
