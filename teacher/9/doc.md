@@ -103,6 +103,33 @@ https://docs.djangoproject.com/en/3.1/ref/models/fields/#charfield
     ./manage.py hello
 
 
+Добавляем данные в таблицу 
+
+    from page.models import Page
+
+
+    class Command(BaseCommand):
+
+        def handle(self, *args, **options):
+           print('Hello command!!!')
+           Page.objects.all().delete()
+           page1 = Page()
+           page1.title = 'Index page'
+           page1.content = 'content content'
+           page1.save()
+
+Выбираем страницу из функци во view
+
+    from page.models import Page
+
+    def index(request):
+        page = Page.objects.get(id=7)
+        return render(request,'index.html',{"page": page})
+
+
+Выводим в шаблоне 
+
+    <h1> {{ page.title }} </h1>
 
 
 
