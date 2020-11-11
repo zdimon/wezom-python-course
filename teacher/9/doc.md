@@ -87,6 +87,23 @@ https://docs.djangoproject.com/en/3.1/ref/models/fields/#charfield
 
     ./manage.py migrate
 
+Создаем команду загрузки данных
+
+в новом каталоге main/management/commands/hello.py
+
+    from django.core.management.base import BaseCommand, CommandError
+
+    class Command(BaseCommand):
+
+        def handle(self, *args, **options):
+           print('Hello command!!!')
+
+Запускаем команду 
+
+    ./manage.py hello
+
+
+
 
 
 
