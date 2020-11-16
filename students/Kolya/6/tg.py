@@ -1,11 +1,10 @@
-import os.path
-if not os.path.isfile('secret.txt'):
-	name = input('Введите имя бота: ')
-	token = input('Введите код: ')
-	f = open('secret.txt', 'w')
-	f.write(name + ':' + token)
-else:
-	f = open('secret.txt', 'r')
-	mystr = f.read()
-	for row in mystr.split(':'):
-		print(row)
+#@Fffffgfsffbot
+import telebot
+bot = telebot.TeleBot('1288611759:AAEKGMZM53kZTN7jbAYir1a_dGuEXUS0P_A')
+@bot.message_handler(commands=['start'])
+def start(message):
+	bot.send_message(message.chat.id, 'Привет')
+bot.polling()
+
+
+

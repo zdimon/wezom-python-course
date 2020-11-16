@@ -1,3 +1,6 @@
 [
-    {"question": "Привет %username%!!!"}
+    {
+        "question": "Привет %username%!!!",
+        "image": "face.png"
+    }
 ]
