@@ -1,0 +1,112 @@
+ {
+
+      "category":
+            "Sports",
+      "questions":
+          [
+            {
+               "answer": "1986",
+               "question": "In which year did Maradona score a goal with his hand?"
+            },
+            {
+               "answer": "Sumo Wrestling",
+               "question": "What is the national sport in Japan?"
+            },
+            {
+               "answer": "80 Minutes",
+               "question": "How many minutes is a rugby match?"
+            },
+            {
+               "answer": "Greece",
+               "question": "In which country were the first Olympic Games held?"
+             },
+            {
+               "answer": "Two players",
+               "question": "How many players are on each side of the net in beach volleyball?"
+             },
+            {
+               "answer": "Replace it",
+               "question": "What should you do in swordplay when you break your saber?"
+             },
+            {
+               "answer": "Only one",
+               "question": "How matches did Mohammed Ali lose in his career?"
+             },
+            {
+               "answer": "Fifty meters",
+               "question": "How long is an Olympic swimming pool?"
+             },
+            {
+               "answer": "The number 501",
+               "question": "At what number does one begin when playing Darts?"
+             },
+            {
+               "answer": "Renault",
+               "question": "Which car won Fernando Alonso his first tittle in Formula 1 with?"
+             },
+            {
+               "answer": "Lance Armstrong",
+               "question": "Who was the champion of the Tour de France from 1999 to 2005?"
+             },
+            {
+               "answer": "Eddy Merckx",
+               "question": "Which cyclist was also called the cannibal?"
+             },
+            {
+               "answer": "Six players",
+               "question": "How many players has a hockey team got on the ice?"
+             },
+            {
+               "answer": "Barcelona",
+               "question": "What was the Olympic city of 1992 ?"
+             },
+            {
+               "answer": "Azteca Stadium in Mexico city",
+               "question": "What is the largest stadium in the world ?"
+             },
+            {
+               "answer": "Billiards and ping-pong",
+               "question": "Which two sports are practiced on a green table ?"
+             },
+            {
+               "answer": "Brazil",
+               "question": "In which country is the Interlagos F1-circuit ?"
+             },
+            {
+               "answer": "Camp Nou",
+               "question": "What is the name of the Barcelona football stadium ?"
+             },
+            {
+               "answer": "Atlanta",
+               "question": "Where were the Olympic Games held in 1996 ?"
+             },
+            {
+               "answer": "Red devils",
+               "question": "What is the nickname of the Belgian national soccer team?"
+             },
+            {
+               "answer": "The black ball",
+               "question": "Which ball is worth the most points in English snooker?"
+             },
+            {
+               "answer": "Fast Flo",
+               "question": "Which nickname has Florence Griffith got?"
+             },
+            {
+               "answer": "Asana",
+               "question": "What is called a yoga posture?"
+             },
+            {
+               "answer": "Tennis",
+               "question": "In which sport can you win the Davis Cup?"
+             },
+            {
+               "answer": "Pilates",
+               "question": "Which popular fitness method was invented by a German?"
+             },
+            {
+               "answer": "Seven times",
+               "question": "How many times has Michael Schumacher been a Formula 1 champion?"
+             }
+          ]
+    }
