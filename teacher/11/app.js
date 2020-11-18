@@ -15,7 +15,7 @@ var l = function (str) {
     console.log(str);
 }
 
-if(name === 'Dima'){
+if(name === 'Dima') {
     l('My name is Dima');
 } else {
 
@@ -32,4 +32,6 @@ var showCards = function() {
     });
 }
 
-showCards();
+var button = $('#startGame');
+button.on('click',showCards);
+
