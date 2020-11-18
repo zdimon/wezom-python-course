@@ -21,10 +21,13 @@ if(name === 'Dima') {
 
 }
 
-for(var i = 0; i<100; i++) {
-    l(i);
-}
+// for(var i = 0; i<100; i++) {
+//     l(i);
+// }
 
+function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
 
 var showCards = function() {
 
@@ -34,6 +37,7 @@ var showCards = function() {
     var header = $('#header').html(inputbox.val());
     div.css('border', '1px solid green');
     // div.hide();
+    console.log(getRandomArbitrary(1,5));
 
 
     cards.forEach(function(el) {
