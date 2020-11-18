@@ -29,6 +29,9 @@ for(var i = 0; i<100; i++) {
 var showCards = function() {
 
     var div = $('#content');
+    var inputbox = $('#count');
+    console.log(inputbox.val());
+    var header = $('#header').html(inputbox.val());
     div.css('border', '1px solid green');
     // div.hide();
 
