@@ -27,8 +27,16 @@ for(var i = 0; i<100; i++) {
 
 
 var showCards = function() {
+
+    var div = $('#content');
+    div.css('border', '1px solid green');
+    // div.hide();
+
+
     cards.forEach(function(el) {
         l(el);
+        div.append(`<img src="${el.url}" />`);
+      
     });
 }
 
