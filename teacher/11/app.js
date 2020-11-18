@@ -1,4 +1,6 @@
 var name = 'Dima';
+var account = 30;
+var bet = 0;
 
 var cards = [
     { url: 'images/6-C.png' },
