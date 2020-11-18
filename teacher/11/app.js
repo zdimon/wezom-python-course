@@ -2,7 +2,15 @@ var name = 'Dima';
 
 var cards = [
     { url: 'images/6-C.png' },
-    { url: 'images/6-D.png' }
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+    { url: 'images/6-D.png' },
+
 ];
 
 
@@ -37,14 +45,20 @@ var showCards = function() {
     var header = $('#header').html(inputbox.val());
     div.css('border', '1px solid green');
     // div.hide();
-    console.log(getRandomArbitrary(1,5));
+    //console.log(getRandomArbitrary(1,5));
+
+     for(var i = 0; i<inputbox.val(); i++) {
+         //l(i);
+         div.append(`<img src="${cards[getRandomArbitrary(1,cards.length)].url}" />`);
+    }
 
 
-    cards.forEach(function(el) {
-        l(el);
-        div.append(`<img src="${el.url}" />`);
+
+    // cards.forEach(function(el) {
+    //     l(el);
+    //     div.append(`<img src="${el.url}" />`);
       
-    });
+    // });
 }
 
 var button = $('#startGame');
