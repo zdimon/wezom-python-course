@@ -16,6 +16,20 @@
    {% for i in pages %}
       <p> {{ i.title }} </p>
    {% endfor %}
+
+
+   {% for catalog in catalogs %}
+   <p> {{ catalog.name }} </p>
+   {% endfor %}
+
+   {% for product in products %}
+   <p> 
+       <a href="product/{{product.id}}">
+            {{ product.name }} 
+        </a>
+</p>
+   {% endfor %}
+
 </body>
 
 </html>
