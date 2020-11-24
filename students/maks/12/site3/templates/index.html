@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Title
+    </title>
+</head>
+
+<body >
+
+	<h1> {{ page.title }} </h1>
+
+	{% for i in pages%}
+		<p> {{ i.title }} </p>
+	{% endfor%}
+
+	<h1> {{ product.name }} </h1>
+
+	{% for i in product%}
+		<p><a href="https://www.google.com.ua/?hl=ru"> {{ i.name }} </a></p>
+		<form method="POST" action="save_busket">
+			{% csrf_token %}
+  			<label for="fname">First name:</label><br>
+  			<input type="text" id="fname" name="fname"><br>
+  			<label for="lname">Last name:</label><br>
+  			<input type="text" id="lname" name="lname"><br>
+  			<label for="tnumber">Phone number:</label><br>
+  			<input type="text" id="tnumber" name="tnumber"><br>
+  			<input type="submit" value="Отправить в корзину">
+		</form>
+
+	{% endfor%}
+
+	<h1> {{ category.name }} </h1>
+
+	{% for i in category%}
+		<p><a href="https://www.google.com.ua/?hl=ru"> {{ i.name }} </a></p>
+	{% endfor%}
+
+</body>
+
+</html>
