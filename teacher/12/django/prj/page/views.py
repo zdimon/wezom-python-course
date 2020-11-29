@@ -28,3 +28,11 @@ def saveorder(request):
     b.save()
     # print(request.POST['product_id'])
     return render(request,'product.html', {"product": product})
+
+
+def doregistration(request):
+    if request.method == 'POST':
+        print('This is post')
+        print(request.POST['login'])
+        print(request.POST['password'])
+    return render(request,'register_success.html')

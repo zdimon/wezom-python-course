@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.safestring import mark_safe
 from image_cropping import ImageRatioField
+from easy_thumbnails.files import get_thumbnailer
 
 class Page(models.Model):
     title = models.CharField(max_length=250)
@@ -23,6 +24,16 @@ class Product(models.Model):
     @property
     def image_tag(self):
         return mark_safe('<img src="%s" />' % self.image.url)
+
+    @property
+    def image_crop_tag(self):
+        thumbnail_url = get_thumbnailer(self.image).get_thumbnail({
+            'size': (100, 100),
+            'box': self.cropping,
+            'crop': True,
+            'detail': True,
+        }).url
+        return mark_safe('<img src="%s" />' % thumbnail_url)
 
 
     def __str__(self):

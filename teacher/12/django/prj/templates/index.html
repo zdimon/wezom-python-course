@@ -11,6 +11,14 @@
 
 <body >
 
+
+    <form method="POST" action="/doregistration">
+        {% csrf_token %}
+        <input name="login" />
+        <input name="password" />
+        <input type="submit" name="Login" value="Login" />
+    </form>
+
    <h1>  </h1>
 
    {% for i in pages %}
@@ -24,6 +32,8 @@
 
    {% for product in products %}
    <p> 
+
+        {{ product.image_crop_tag }}
        <a href="product/{{product.id}}">
             {{ product.name }} 
         </a>
