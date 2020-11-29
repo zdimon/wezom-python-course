@@ -11,6 +11,13 @@
 
 <body >
 
+	<form method="POST" action="/doregistration">
+		{% csrf_token %}
+		<input name="login" />
+		<input name="password" />
+		<input type="submit" name="Login" value="Login" />
+	</form>
+
 	<h1> {{ page.title }} </h1>
 
 	{% for i in pages%}
@@ -39,6 +46,12 @@
 	{% for i in category%}
 		<p><a href="https://www.google.com.ua/?hl=ru"> {{ i.name }} </a></p>
 	{% endfor%}
+
+	{% load cropping %}
+	<img src="{% cropped_thumbnail Product 'cropping' scale=0.5 %}">
+
+	{% load thumbnail %}
+	{% thumbnail Product.image 430x360 box=Product.cropping crop detail %}
 
 </body>
 

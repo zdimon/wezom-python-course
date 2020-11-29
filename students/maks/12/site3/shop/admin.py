@@ -1,4 +1,5 @@
 from django.contrib import admin
+from image_cropping import ImageCroppingMixin
 
 # Register your models here.
 
@@ -15,8 +16,8 @@ class CategoryAdmin(admin.ModelAdmin):
 	pass
 admin.site.register(Category, CategoryAdmin)
 
-class ProductAdmin(admin.ModelAdmin):
-	list_display = ['name', 'category']
+class ProductAdmin(ImageCroppingMixin, admin.ModelAdmin):
+	list_display = ['name', 'category', 'image_tag']
 	list_filter = ['category']
 admin.site.register(Product, ProductAdmin)
 

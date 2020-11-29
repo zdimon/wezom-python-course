@@ -1,6 +1,9 @@
 from django.core.management.base import BaseCommand, CommandError
 from shop.models import Category
 from shop.models import Product
+from django.core.files import File
+import urllib
+from site3.settings import MEDIA_ROOT
 
 all_ctgr = ["Phones", "Clothes", "Food", "Ware"]
 phones = ["Xiaomi", "IPhone", "Samsung", "Huawei"] 
@@ -26,6 +29,9 @@ class Command(BaseCommand):
                         p.name = i
                         p.category = c
                         p.save()
+                        p.image.save("test.png",
+                        File(open('%s/%s' % (MEDIA_ROOT, "icon128.png"), "rb"))
+                        )
 
                         '''Product.objects.all().delete()
                         for i in clothes:
@@ -33,4 +39,5 @@ class Command(BaseCommand):
                               d.name = i
                               d.category = c
                               d.save()'''
+
 
