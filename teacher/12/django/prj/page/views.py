@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from page.models import Page, Catalog, Product, Basket
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login, logout
+from django.http import *
 
 def index(request):
     pages = Page.objects.all()
@@ -32,7 +35,23 @@ def saveorder(request):
 
 def doregistration(request):
     if request.method == 'POST':
+        user = User()
+        user.username = request.POST['login']
+        user.set_password(request.POST['password'])
+        user.is_superuser = True
+        user.is_active = True
+        user.is_staff = True
+        user.save()
         print('This is post')
         print(request.POST['login'])
         print(request.POST['password'])
     return render(request,'register_success.html')
+
+def dologin(request):
+    if request.method == 'POST':
+        user = authenticate(username=request.POST['login'], password=request.POST['password'])
+        if user is not None:
+            login(request, user)
+            return HttpResponseRedirect('/')
+        else:
+            print('Wrong user')

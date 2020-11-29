@@ -1,12 +1,13 @@
 from django.contrib import admin
 from django.urls import path
 
-from page.views import index, product, saveorder, doregistration
+from page.views import index, product, saveorder, doregistration, dologin
 
 urlpatterns = [
     path('', index),
     path('product/<int:id>', product),
     path('doregistration', doregistration),
+    path('dologin', dologin),
     path('saveorder', saveorder),
     path('admin/', admin.site.urls),
 ]

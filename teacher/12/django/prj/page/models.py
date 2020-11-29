@@ -30,11 +30,11 @@ class Product(models.Model):
         thumbnail_url = get_thumbnailer(self.image).get_thumbnail({
             'size': (100, 100),
             'box': self.cropping,
-            'crop': True,
-            'detail': True,
+            'crop': 'smart',
+            'upscale': True,
         }).url
         return mark_safe('<img src="%s" />' % thumbnail_url)
-
+        
 
     def __str__(self):
         return self.name

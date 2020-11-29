@@ -19,6 +19,21 @@
         <input type="submit" name="Login" value="Login" />
     </form>
 
+
+
+    {% if user.is_authenticated %}
+        <a href="/unlogin">Unlogin</a>
+    {% else %}
+    Login form
+    <form method="POST" action="/dologin">
+        {% csrf_token %}
+        <input name="login" />
+        <input name="password" />
+        <input type="submit" name="Login" value="Login" />
+    </form>
+    {% endif %}
+
+
    <h1>  </h1>
 
    {% for i in pages %}
