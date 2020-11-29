@@ -1,0 +1,13 @@
+<h1>Hello {{product.name}}</h1>
+
+<form method="POST" action="/saveorder">
+    {% csrf_token %}
+    Name: <input type="text" name="username" />
+    Phone: <input type="text" name="phone" />
+
+    <input type="hidden" value="{{ product.id }}" name="product_id" />
+
+
+    <input type="submit" value="Оформить заказ" name="Оформить заказ" />
+
+</form>
