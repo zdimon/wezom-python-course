@@ -127,5 +127,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
 
 THUMBNAIL_QUALITY = 95
-IMAGE_CROPPING_BACKEND = 'image_cropping.backends.easy_thumbs.EasyThumbnailsBackend'
-IMAGE_CROPPING_BACKEND_PARAMS = {}
+
+THUMBNAIL_DEBUG = True

@@ -3,6 +3,7 @@ from page.models import Page, Catalog, Product, Basket
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.http import *
+from .forms import ProductForm
 
 def index(request):
     pages = Page.objects.all()
@@ -14,6 +15,7 @@ def index(request):
         "pages": pages, \
         "catalogs": catalogs, \
         "products": products, \
+        "form": ProductForm()
     })
 
 
