@@ -53,6 +53,13 @@
                         </a>
                     </li>
                     {% endfor %}
+
+					<li class="nav-item active">
+                        <a class="nav-link" href="/blog/list">
+
+                            Блог
+                        </a>
+                    </li>
 					
 				</ul>
 				
@@ -73,12 +80,7 @@
 		    <div class="container">
 			   
 			
-		     <h1>{{ page.title }}</h1>
-             <div>
-
-                {{page.content}}
-
-             </div>
+                {% block content %} {% endblock %}
              
 			  
 				

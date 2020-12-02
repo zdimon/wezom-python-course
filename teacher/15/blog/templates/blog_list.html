@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% block content %}
+        <h1>Блог</h1>
+        <div>
+        {% for post in posts %}
+            <p>
+                {{ post.title }}
+            </p>
+        {% endfor %}
+        </div>
+
+        {% if posts.has_previous %}
+           <a href="?page={{ posts.previous_page_number }}">previous</a>
+        {% endif %}
+
+   
+
+    {% if posts.has_next %}
+        <a href="?page={{ posts.next_page_number }}">next</a>
+       
+    {% endif %}
+
+
+
+{% endblock %}
