@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from page.views import index, page_detail
 from post.views import blog
 
@@ -23,4 +23,5 @@ urlpatterns = [
     path('blog/list', blog),
     path('page/show/<slug:pagename>', page_detail),
     path('admin/', admin.site.urls),
+    path('rosetta/', include('rosetta.urls'))
 ]
